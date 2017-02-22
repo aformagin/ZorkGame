@@ -1,5 +1,8 @@
-/**
- * Created by Austin on 2017-02-22.
- */
+////////////////////////////////////////////////////////////////////////////////
+//Creation Date: 2017-02-22
+//Created By: Austin Formagin
+//This is the "main" class or the client class. From here is where the user will
+//play the game from, and where it will be launched from the title screen.
+////////////////////////////////////////////////////////////////////////////////
 public class Launch {
 }
