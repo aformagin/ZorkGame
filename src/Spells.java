@@ -5,16 +5,16 @@
 //a child of this class
 //Updated Date: 2017-02-22
 ////////////////////////////////////////////////////////////////////////////////
-public class Spells{
+public class Spells {
 
-  int damage;
-  boolean learned = false;
-  int manaRequired;
-  int mana;
-  public Spells()
-  {
-    
-  }
+    int damage;
+    boolean learned = false;
+    int manaRequired;
+    int mana;
+
+    public Spells() {
+
+    }
   
  /*Accessors/Mutators for spell stats
   public int getDamage()
