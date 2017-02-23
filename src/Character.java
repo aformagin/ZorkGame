@@ -1,0 +1,9 @@
+//////////////////////////////
+//
+//////////////////////////////
+public class Charatcer
+{
+int Con;
+int Int;
+int Dex;
+}//End of Character Class
