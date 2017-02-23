@@ -13,15 +13,21 @@ public class Spells {
     int manaRequired;//The amount of 'mana' required to use this spell
     int mana;//User's total mana, will go into character generation at somepoinr
 
-    public Spells() {
-
+    public Spells() 
+    {
+        this.spellType = "DIRECT";
+        this.damagew = SpellDamage(1,6);//Assigns base spell a damage of d6
     }
-//Where the client or another class/method will put the information required to create the spell
+    //Where the client or another class/method will put the information required to create the spell
     public Spells(int damage, boolean learned, int manaRequired, int mana, String spellType)
     {
 
     }
-  
+    //Randomly assigns spell damage
+    public int SpellDamage(int lowDMG, int highDMG)
+    {
+       Math.round(Math.random(highDMG+lowDMG-1)+lowDMG));
+    }
  /*Accessors/Mutators for spell stats
   public int getDamage()
   {
