@@ -1,3 +1,5 @@
+import java.io.IOException;
+
 ////////////////////////////////////////////////////////////////////////////////
 //Creation Date: 2017-02-22
 //Created By: Austin Formagin
@@ -5,4 +7,8 @@
 //play the game from, and where it will be launched from the title screen.
 ////////////////////////////////////////////////////////////////////////////////
 public class Launch {
+    public static void main (String[]args) throws IOException
+    {
+        System.out.print("Hello World");//Out puts hello world when launched. Just so it does something for now
+    }
 }

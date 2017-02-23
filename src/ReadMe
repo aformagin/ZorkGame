@@ -1,0 +1,28 @@
+README.TXT
+
+////////////////////////////////////////////////////////////////////////////
+//This file is for documentation of different things inside of the program//
+////////////////////////////////////////////////////////////////////////////
+Project Manager: Austin Formagin
+Developers: Austin Formagin
+
+//////////////////////////////
+//Item Types and Definitions//
+//////////////////////////////
+ITYPE_1: POTION
+ITYPE_2: KEY_ITEM
+ITYPE_3: WEAPON
+ITYPE_4: MISC_ITEM
+
+///////////////////////////////
+//Spell Types and Definitions//
+///////////////////////////////
+STYPE_1: DIRECTDMG
+STYPE_2: AOEDMG
+STYPE_3: HEALING
+
+Direct Damaging spells will only have an impact on the enemy which it is directed to
+
+Area of Effect spells will have 'Splash' damage, where it can hit more than one enemy
+
+Healing spells will heal the user
