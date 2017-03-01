@@ -26,7 +26,7 @@ public class Spells {
     //Randomly assigns spell damage
     public int SpellDamage(int lowDMG, int highDMG)
     {
-       Math.round(Math.random(highDMG+lowDMG-1)+lowDMG));
+       Math.round(Math.random(highDMG-lowDMG+1)+lowDMG));
     }
  /*Accessors/Mutators for spell stats
   public int getDamage()
