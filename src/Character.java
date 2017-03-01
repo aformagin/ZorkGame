@@ -1,7 +1,7 @@
 //////////////////////////////
 //
 //////////////////////////////
-public class Charatcer
+public class Character
 {
 int Con;
 int Int;

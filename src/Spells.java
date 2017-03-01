@@ -16,7 +16,7 @@ public class Spells {
     public Spells() 
     {
         this.spellType = "DIRECT";
-        this.damagew = SpellDamage(1,6);//Assigns base spell a damage of d6
+        this.damage = SpellDamage(1,6);//Assigns base spell a damage of d6
     }
     //Where the client or another class/method will put the information required to create the spell
     public Spells(int damage, boolean learned, int manaRequired, int mana, String spellType)
