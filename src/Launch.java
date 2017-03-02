@@ -9,6 +9,7 @@ import java.io.IOException;
 public class Launch {
     public static void main (String[]args) throws IOException
     {
+        TitleScreen title = new TitleScreen();
         System.out.print("Hello World");//Out puts hello world when launched. Just so it does something for now
     }
 }
