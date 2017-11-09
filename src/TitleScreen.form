@@ -1,18 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="TitleScreen">
-  <grid id="27dc6" binding="Welcome" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+  <grid id="27dc6" binding="Welcome" layout-manager="BorderLayout" hgap="0" vgap="0">
     <constraints>
       <xy x="20" y="20" width="500" height="400"/>
     </constraints>
     <properties/>
     <border type="none"/>
     <children>
-      <component id="bd3d1" class="javax.swing.JButton" binding="StartGame">
-        <constraints/>
+      <component id="dd8aa" class="javax.swing.JLabel" binding="Title">
+        <constraints border-constraint="North"/>
         <properties>
+          <background color="-9699327"/>
+          <enabled value="false"/>
+          <horizontalAlignment value="0"/>
+          <text value="RPG Game"/>
+          <verticalAlignment value="0"/>
+          <verticalTextPosition value="0"/>
+        </properties>
+      </component>
+      <component id="bd3d1" class="javax.swing.JButton" binding="StartGame">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <inheritsPopupMenu value="false"/>
+          <maximumSize width="88" height="32"/>
+          <minimumSize width="88" height="32"/>
           <text value="Start Game"/>
           <verticalAlignment value="0"/>
           <verticalTextPosition value="0"/>
+        </properties>
+      </component>
+      <component id="91e7c" class="javax.swing.JButton" binding="helpButton" default-binding="true">
+        <constraints border-constraint="West"/>
+        <properties>
+          <text value="Help"/>
+        </properties>
+      </component>
+      <component id="9bb40" class="javax.swing.JButton" binding="exitButton" default-binding="true">
+        <constraints border-constraint="East"/>
+        <properties>
+          <text value="Exit"/>
         </properties>
       </component>
     </children>
