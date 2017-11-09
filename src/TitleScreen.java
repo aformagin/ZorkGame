@@ -6,4 +6,5 @@ import javax.swing.*;
 public class TitleScreen {
     private JPanel Welcome;
     private JButton StartGame;
+
 }

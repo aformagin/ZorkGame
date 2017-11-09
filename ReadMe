@@ -13,7 +13,8 @@ ITYPE_1: POTION
 ITYPE_2: KEY_ITEM
 ITYPE_3: WEAPON
 ITYPE_4: MISC_ITEM
-
+//1D Array, the rows are the numbers of items
+//
 ///////////////////////////////
 //Spell Types and Definitions//
 ///////////////////////////////
